@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BuzzMe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="privacy_policy">Terms and Privacy Policy</string>
+    <string name="app_info">App\tName\t:\tBuzzMe\nCreator\t\t :\tANSHUL AGARWAL\nCollege\t\t\t:\t\tKNIT Sultanpur
+    </string>
+    <string name="help_center"><b>Download and Installation</b>\n
+        For now,Download is only possible through sharing the base-app package.\n\n
+        <b>Verification</b>\n
+        You can only verify a phone number by your own.\n
+        You must be able to receive phone calls and SMS to the phone number you are trying to verify.\n
+        You must have any call-blocking settings,apps or task killers disabled.\n
+        You must have a working Internet connection through mobile data or Wi-Fi.\n
+    </string>
+    <string name="privacy_terms">Respect for your privacy is coded into our DNA. Since we started BuzzMe, we’ve built our services with a set of strong privacy principles in mind. In our updated Terms of Service and Privacy Policy you’ll find:
+    </string>
+</resources>

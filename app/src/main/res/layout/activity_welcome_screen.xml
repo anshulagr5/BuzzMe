@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="cursive"
+            android:text="Welcome to BuzzMe"
+            android:textColor="#FF5722"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/ic_logo"
+            android:layout_gravity="center"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
+
+        <Button
+            android:id="@+id/btnAgree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="65dp"
+            android:backgroundTint="#50CF55"
+            android:text="Agree and Continue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text='Agree and Continue to accept \nour Terms of service.\nTap to Read our Privacy Policy.'
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>
